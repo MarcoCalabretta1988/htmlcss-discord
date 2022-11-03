@@ -42,7 +42,7 @@ a{
 }
 
 button{
-    padding: 20px 25px;
+    padding: 20px 30px;
     border-radius: 30px;
     border-style: none;
     font-weight: bold;
@@ -52,14 +52,24 @@ button{
 
 h1{
     font-size: 60px;
-    padding: 15px 0;
+    padding-bottom: 40px;
+}
+
+h2{
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 40px;
 }
 
 p{
     font-size: 20px;
-    padding: 45px;
-    line-height: 30px;
+    line-height: 35px;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
 /* UTILITIES */
@@ -106,6 +116,9 @@ div a{
     background-color: #fff;
 }
 
+.bg-lilla{
+    background-color: #8EA1E1;
+}
 .bg-darkblue{
     background-color:#23272A;
 }
@@ -164,38 +177,46 @@ header{
 .jt-content{
     height: var(--medium-small);
     text-align: center;
-    padding: 50px 100px;
+    padding: 50px 200px;
     
 }
 
 
 
 /* MAIN */
+.flex-main{
+    display: flex; 
+    padding: 200px 0;
+}
 
-.main-big-box{
-    min-height: var(--medium);
+.box-img{
+    height: var(--medium);
     flex-basis: 60%;
-    background-color: #1E90FF;
 }
 
-.main-small-box{
-    min-height: var(--medium);
+.box-text{
+    height: var(--medium);
     flex-basis: 40%;
-    background-color: #FFC0CB;
+    padding: 30px 40px;
 }
 
-.main-footer{
-    min-height: 1200px;
+
+
+.main-footer-flex{
+    display: flex;
+    height: 1200px;
     padding:50px;
+    text-align: center;
 }
 
-.g-box{
-    background-color: #228B22;
-    min-height: 1100px;
-    flex-basis: 100%;
+.star-alone{
+    display: block;
+    margin: 0 auto;
 }
 
-
+.main-footer-box{
+    padding: 100px 0;
+}
 
 /* FOOTER */
 

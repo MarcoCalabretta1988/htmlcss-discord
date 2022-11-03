@@ -19,8 +19,14 @@
 /* GENERIC */
 
 a{
-    color:#000;
     text-decoration: none;
+    padding:0 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+img{
+    max-width: 100%;
 }
 
 li{
@@ -31,14 +37,52 @@ li{
     border: 2px dashed #000;
 }
 
+
+button{
+    padding: 20px 25px;
+    border-radius: 30px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+h1{
+    font-size: 60px;
+    padding: 15px 0;
+}
+
+p{
+    font-size: 20px;
+    padding: 45px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+/* UTILITIES */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: sans-serif;
+}
+
 .flex{
     display: flex; 
+}
+
+.text-white{
+    color: #fff;
 }
 
 .flex.container{
     justify-content: center;
     align-items: center;
-    min-height: var(--medium-large);
+    height: var(--medium-large);
 }
 
 .flex-footer{
@@ -48,45 +92,44 @@ li{
     
 }
 
-
-
-/* UTILITIES */
-
-.container{
-    width: 1200px;
-    margin: 0 auto;
-
-}
-
-.nav-align{
-    line-height: 40px;
-    vertical-align: middle;
-}
-
 .bg-grey{
     background-color: #D3D3D3;
 }
+
+.bg-white{
+    background-color: #fff;
+}
+
+.bg-darkblue{
+    background-color:#23272A;
+}
+
 
 
 /* HEADER */
 
 header{
-    min-height: var(--small);
-    background-color: #ADD8E6;
+    background-color: #3161E0;
     padding-top: var(--very-small);
+    
 }
 
-.flex-item{
+.nav-logo{
     flex-basis: var(--small);
     padding: 0 10px;
+    text-align: right;
+}
+
+.nav-button{
+    flex-basis: var(--small);
+    padding: 0 10px;
+    text-align: right;
 }
 
 .main-nav{
-    min-height: 40px;
     display: flex;
-    background-color: goldenrod;
-    margin-bottom: var(--very-small);
-    font-size: larger;
+    align-items: center;
+    padding-bottom: 20px ;
     }
 
 .main-nav ul{
@@ -96,18 +139,17 @@ header{
 }
 
 .jumbotron {
-    background-color: #00008B;
-    min-height:var(--medium);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height:var(--medium-large);
     padding: 50px 0;
 }
 
 .jt-content{
-    background-color: #EE82EE ;
     height: var(--medium-small);
-    width: var(--medium-large);
-    margin: 0 auto;
-
-
+    text-align: center;
+    padding: 50px 100px;
+    
 }
 
 

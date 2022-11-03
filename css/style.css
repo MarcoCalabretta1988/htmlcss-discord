@@ -23,8 +23,16 @@ img{
     max-width: 100%;
 }
 
-li{
+nav li{
     display: inline;
+}
+
+ul{
+ list-style-type: none;
+}
+
+li{
+    padding:5px 0;
 }
 
 .border{
@@ -35,7 +43,7 @@ li{
 
 a{
     text-decoration: none;
-    padding:0 20px;
+    padding:20px;
     font-size: 15px;
     font-weight: bold;
     color: #fff;
@@ -48,6 +56,12 @@ button{
     font-weight: bold;
     font-size: 17px;
     margin: 0 10px;
+}
+
+i{
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 h1{
@@ -63,6 +77,10 @@ h2{
 h3{
     font-size: 30px;
     padding-bottom: 40px;
+}
+
+h4{
+    padding: 0 20px;
 }
 
 p{
@@ -91,21 +109,18 @@ body{
     color: #fff;
 }
 
+.text-lilla{
+    color: #7289DA;
+}
+
+.text-black{
+    color: #000;
+}
+
 .flex.container{
     justify-content: center;
     align-items: center;
     height: var(--medium-large);
-}
-
-.flex-footer{
-    display: flex;
-    justify-content: center;
-    min-height: var(--medium-large);
-    
-}
-
-div a{
-    color:#000;
 }
 
 .bg-grey{
@@ -134,7 +149,7 @@ header{
 }
 
 .access-link{
-    padding: 5px 0;
+    padding: 5px;
     border-radius: 20px;
 }
 
@@ -184,6 +199,7 @@ header{
 
 
 /* MAIN */
+
 .flex-main{
     display: flex; 
     padding: 200px 0;
@@ -200,7 +216,7 @@ header{
     padding: 30px 40px;
 }
 
-
+/* MAIN FOOTER LAYOUT */
 
 .main-footer-flex{
     display: flex;
@@ -209,62 +225,65 @@ header{
     text-align: center;
 }
 
+.main-footer-box{
+    padding: 100px 0;
+}
+
+/* LAYOUT STAR IMAGE */
+
 .star-alone{
     display: block;
     margin: 0 auto;
 }
 
-.main-footer-box{
-    padding: 100px 0;
-}
 
 /* FOOTER */
+
+.flex-footer{
+    display: flex;
+    justify-content: center;
+    height: var(--medium-large);
+    
+}
 
 .flex-ft-info{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     background-color: #7FFFD4;
-     min-height: 80px;
+     height: 80px;
      margin-top: 15px;
     
 }
 
-.ft-big-box{
-    min-height: var(--medium);
+.ft-left-box{
+    height: var(--medium);
     flex-basis: 30%;
-    background-color: #F08080;
+    padding: 50px;
 }
 
-.ft-small-box{
-    min-height: var(--medium);
+.ft-right-box{
+    height: var(--medium);
     flex-basis: 70%;
-    background-color: #20B2AA;
     display: flex;
+    padding: 50px;
 }
 
-.ft-small-box-item{
-    border: 2px dashed #fff ;
+.ft-right-box-item{
     flex-basis: 25%;
 }
 
 
-.ft-info-item{
-    background-color: #FFB6C1;
-    padding: 8px;
-    font-size: 20px;
+.italian-flag{
+    width: 20px;
+    height: 15px;
 }
-
   /* FOOTER STYLE */
 
 .footer-top{
-    background-color: #23272A;
-    padding-top: 10px;
-    padding-bottom: 30px;
+   padding:50px 0;
+   border-bottom:1px solid #8EA1E1;
 }
 
 .footer-bottom{
-    background-color: #23272A;
-    margin-top: 1px;
-    padding-top: 15px;
+    padding: 20px;
 }

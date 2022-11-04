@@ -290,3 +290,18 @@ header{
 .footer-bottom{
     padding: 20px;
 }
+
+/* WAVE */
+
+.wave{
+    color:#D3D3D3;
+    display:block;
+}
+
+.wave.up-side-down{
+    transform: rotate(0.5 turn);
+}
+
+#info-ricerca svg{
+    color:#fff;
+}
